@@ -1,15 +1,16 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // calls a  set of predefined functions. e.g. cout = "console output" basicly prints to the screen.
+using namespace std; // ill tell you later
 
-int main() {
+int main() {  // the main function. The one that gets executed when you run the program
 
-int a, b, c, first;
+int a, b, c, first; // defining 4 integer variables 
 a = 4;
 b = 2;
 c = 3;
 
+// first set of ifs. to find the greatest number. Think of away to use else if and else here...
 if (a > b && a > c) {
-  cout << "1: " << a << endl;
+  cout << "1: " << a << endl; // endl is like <br> in html "break line" endline starts a new line "enter"
   first = a;
 }
 if (b > a && b > c) {
@@ -22,7 +23,7 @@ if (c > b && c > a) {
 }
 
 
-
+// Second set of ifs to find the rest
 if  (first == a) {
   if (b < c) {
     cout << "2: " << c << endl << "3: " << b << endl;
