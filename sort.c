@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-int a, b, c, first, second, third;
+int a, b, c, first;
 a = 4;
 b = 2;
 c = 3;
