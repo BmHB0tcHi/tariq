@@ -29,7 +29,7 @@ if  (first == a) {
     cout << "2: " << c << endl << "3: " << b << endl;
   }
   else {
-    cout << "2: " << b << endl << "3: " << c << endl;
+    fasout << "2: " << b << endl << "3: " << c << endl;
   }
 }
 if  (first == b) {
@@ -45,7 +45,7 @@ if  (first == c) {
     cout << "2: " << b << endl << "3: " << a << endl;
   }
   else {
-    cout << "2: " << a << endl << "3: " << b << endl;
+    out << "2: " << a << endl << "3: " << b << endl;
   }
 }
 
